@@ -86,6 +86,7 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  /*
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
   --rs-large-spacing: 2px;
@@ -98,8 +99,10 @@
   --rs-dnd-color: #f04747;
   --rs-offline-color: #808080;
   /* originally #636b75 */
+  /* 
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
+  */ 
   --HSL-server-icon-size: 45px;
   --HSL-server-spacing: 10px;
 }
