@@ -10,7 +10,7 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-/* @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); */
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 @import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css');
 
@@ -58,8 +58,8 @@
   --home-icon: url('https://s4.anilist.co/file/anilistcdn/user/avatar/large/b25000-EnBuzeafIflx.png');
   --home-position: center;
   --home-size: 41px;
-  --channel-unread: #947873;
-  --channel-color: rgb(255,255,255,0.3);
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
   --online-color: #43b581;
   --idle-color: #faa61a;
@@ -86,7 +86,6 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-  /*
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
   --rs-large-spacing: 2px;
@@ -97,12 +96,9 @@
   --rs-online-color: #43b581;
   --rs-idle-color: #faa61a;
   --rs-dnd-color: #f04747;
-  --rs-offline-color: #808080;
-  /* originally #636b75 */
-  /* 
+  --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-  */ 
   --HSL-server-icon-size: 45px;
   --HSL-server-spacing: 10px;
 }
