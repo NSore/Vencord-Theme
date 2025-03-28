@@ -9,24 +9,18 @@
  */
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
-@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
-@import url(https://clearvision.github.io/Addons/gradients.css);
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url(https://clearvision.github.io/Addons/whitney.css);
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
+@import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css')
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: rgb(103, 61, 255);
-  --hover-color: rgb(173, 0, 46);
-  --success-color: #02FF00;
-  --danger-color: rgba(176,0,72,1);
+  --main-color: #947873;
+  --hover-color: #342625;
+  --success-color: #C2B7B1;
+  --danger-color: #C2A18D;
   --url-color: var(--hover-color);
-  --columns: 2;
-  --guildgap: 3;
-  --aligndms: 0;
-  --guildsize: 57;
-  --home-size: 57px;
   /* RADIAL STATUS */
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
