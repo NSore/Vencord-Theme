@@ -42,7 +42,7 @@
   --streaming-color: #593695;
   --offline-color: #00168D;
   /* BACKGROUND IMAGES */
-  --background-image: url('https://i.imgur.com/QHQVUbb.png');
+  --background-image: url('https://files.catbox.moe/rdkzgl.jpg');
   --background-attachment: fixed;
   --user-popout-image: url('https://i.imgur.com/Vvy45fA.png');
   --user-popout-attachment: fixed;
