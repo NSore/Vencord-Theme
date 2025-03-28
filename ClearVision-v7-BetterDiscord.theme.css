@@ -1,0 +1,171 @@
+/**
+ * @name ClearVision V7 for BetterDiscord
+ * @author ClearVision Team
+ * @version 7.0.0 pre
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+@import url(https://clearvision.github.io/Addons/gradients.css);
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url(https://clearvision.github.io/Addons/whitney.css);
+/* SETTINGS */
+:root {
+  /* ACCENT COLORS */
+  --main-color: rgb(103, 61, 255);
+  --hover-color: rgb(173, 0, 46);
+  --success-color: #02FF00;
+  --danger-color: rgba(176,0,72,1);
+  --url-color: var(--hover-color);
+  --columns: 2;
+  --guildgap: 3;
+  --aligndms: 0;
+  --guildsize: 57;
+  --home-size: 57px;
+  /* RADIAL STATUS */
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #00FF2B;
+  --rs-idle-color: #FF8200;
+  --rs-dnd-color: #D40000;
+  --rs-offline-color: #002657;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+  /* STATUS COLORS */
+  --online-color: #10F100;
+  --idle-color: #F37500;
+  --dnd-color: #D30000;
+  --streaming-color: #593695;
+  --offline-color: #00168D;
+  /* BACKGROUND IMAGES */
+  --background-image: url('https://i.imgur.com/QHQVUbb.png');
+  --background-attachment: fixed;
+  --user-popout-image: url('https://i.imgur.com/Vvy45fA.png');
+  --user-popout-attachment: fixed;
+  --user-modal-image: url('https://i.imgur.com/0lP5Y1N.png');
+  --user-modal-attachment: fixed;
+  /* HOME ICON */
+  --home-icon: url('https://i.imgur.com/spYeBIf.jpeg');
+  /* FONTS */
+  --main-font: Whitney;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  /* BACKGROUND IMAGE FILTERS */
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --user-popout-filter: var(--background-filter);
+  --user-modal-filter: var(--background-filter);
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* GREY THEME / DARK THEME IN OLD UI */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.7);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --channel-unread: var(--hover-color);
+  --channel-color: rgba(255, 255, 255, 0.46);
+  --muted-color: rgb(255,255,255,0.1);
+}
+
+/* DARK THEME - NEW UI EXCLUSIVE */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* MIDNIGHT THEME - NEW UI EXCLUSIVE */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.5);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
+
+.folderIconWrapper__48112 {
+    background: none !important;
+}
+
+  /* Gradients */
+    --gradient-color1: var(--hover-color); /* primary color [default: var(--main-color) */
+    --gradient-color2: var(--main-color); /* secondary color [default: var(--hover-color) */
+    --gradient-direction:130deg; /* angle of gradient [default: 130deg] */
+}
+
+	
+.folderIconWrapper__48112 {
+    background: none !important;
+}
+
+.title_c38106  {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+}
+
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
+ /* TOPBAR TRANSPARENCY FIX */
+    .title_c38106  {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+}
+
+    /* Discovery and Add Server */
+    .tutorialContainer__650eb, .scroller_ef3116 > .listItem__650eb {
+    display: none;
+}
+
+    /* Transparrent Messsagebox */
+    .channelTextArea_f75fb0, .stackedBars__74017, .channelAttachmentArea_b77158, .upload_aa605f {
+    background: none !important;
+}
+
+    /* Transparrent Folder Icon */
+    .folderIconWrapper__48112 {
+    background: none !important;
+}
+
+    /* Chatbox Padding */
+    .scrollerInner__36d07 {
+    padding-bottom: 1.5%;
+}
