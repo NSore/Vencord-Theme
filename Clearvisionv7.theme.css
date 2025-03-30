@@ -1,5 +1,5 @@
 /**
- * @name ClearVision V7 Emerald for Vencord
+ * @name ClearVision V7 Winter for Vencord
  * @author ClearVision Team
  * @version 7.0.0
  * @description Highly customizable theme for BetterDiscord.
@@ -10,16 +10,13 @@
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
-@import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css')
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #947873;
-  --hover-color: #342625;
-  --success-color: #C2B7B1;
-  --danger-color: #C2A18D;
+  --main-color: #66aacc;
+  --hover-color: #447799;
+  --success-color: #43b581;
+  --danger-color: #982929;
   /* STATUS COLORS */
   --online-color: #43b581;
   --idle-color: #faa61a;
@@ -27,22 +24,22 @@
   --streaming-color: #593695;
   --offline-color: #808080;
   /* APP BACKGROUND */
-  --background-shading-percent: 34%;
-  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url(https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg);
+  --background-shading-percent: 100%;
+  --background-image: url(https://clearvision.github.io/images/winter.jpg);
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg');
-  --user-popout-attachment: fixed;
+  --user-popout-image: var(--background-image);
+  --user-popout-attachment: var(--background-attachment);
   --user-popout-filter: var(--background-filter);
   /* USER MODAL BACKGROUND */
-  --user-modal-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg');
+  --user-modal-image: var(--background-image);
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
   /* HOME ICON */
-  --home-icon: url('https://s4.anilist.co/file/anilistcdn/user/avatar/large/b25000-EnBuzeafIflx.png');
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
   /* FONTS */
-  --main-font: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 }
 
