@@ -29,11 +29,7 @@
   --offline-color: #808080;
   /* APP BACKGROUND */
   --background-shading-percent: 34%;
-  --background-image: url('https://files.catbox.moe/rdkzgl.jpg');
-  --background-size: cover, cover;
-  --background-attachment: fixed, fixed;
-  --background-repeat: no-repeat, no-repeat;
-  --background-position: center right, center right;
+  --background: url("https://files.catbox.moe/rdkzgl.jpg") no-repeat fixed right
   --background-filter: blur(3px) brightness(84%);
   /* USER POPOUT BACKGROUND */
   --user-popout-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg');
