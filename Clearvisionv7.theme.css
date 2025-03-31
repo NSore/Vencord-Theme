@@ -99,7 +99,7 @@
   --success-color: #C2B7B1;
   --danger-color: #C2A18D;
   --url-color: #C2B7B1;
-  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url(https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg);
+  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg');
   --background-shading: 34%;
   --background-position: center right;
   --background-size: cover;
@@ -152,8 +152,8 @@
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
-  --backdrop-size: var(--background-size);
-  --backdrop-repeat: var(--background-repeat);
+  --backdrop-size: cover;
+  --backdrop-repeat: no-repeat;
   --backdrop-attachment: var(--background-attachment);
   --backdrop-brightness: var(--background-brightness);
   --backdrop-contrast: var(--background-contrast);
