@@ -36,7 +36,7 @@
   --background-position: center right;
   --background-brightness: 84%;
   --background-blur: 3px;
-  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --background-filter: blur(3px) brightness(84%);
   /* USER POPOUT BACKGROUND */
   --user-popout-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg');
   --user-popout-position: center;
