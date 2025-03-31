@@ -30,12 +30,10 @@
   /* APP BACKGROUND */
   --background-shading-percent: 34%;
   --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg');
-  --background-size: cover;
-  --background-attachment: fixed;
-  --background-repeat: no-repeat;
-  --background-position: center right;
-  --background-brightness: 84%;
-  --background-blur: 3px;
+  --background-size: cover, cover;
+  --background-attachment: fixed, fixed;
+  --background-repeat: no-repeat, no-repeat;
+  --background-position: center right, center right;
   --background-filter: blur(3px) brightness(84%);
   /* USER POPOUT BACKGROUND */
   --user-popout-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg');
