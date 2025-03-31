@@ -27,10 +27,13 @@
   --streaming-color: #593695;
   --offline-color: #808080;
   /* APP BACKGROUND */
-  --background-shading-percent: 100%;
-  --background-image: url(https://files.catbox.moe/rdkzgl.jpg);
-  --background-attachment: fixed;
+  --background-shading-percent: 34%;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg');
+  --background-position: center right;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
   /* USER POPOUT BACKGROUND */
   --user-popout-image: var(--background-image);
   --user-popout-attachment: var(--background-attachment);
