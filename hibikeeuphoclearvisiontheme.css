@@ -25,8 +25,8 @@
   --offline-color: #808080;
   /* APP BACKGROUND */
   --background-shading-percent: 34%;
-  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url(https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg);
-  --background-position: center-right;
+  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg');
+  --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat; 
   --background-attachment: fixed;
