@@ -1,5 +1,5 @@
 /**
- * @name ClearVision V7 Amber for Vencord
+ * @name Eupho Clearvision update 10-15-2025
  * @author ClearVision Team
  * @version 7.0.1
  * @description Highly customizable theme for Vencord.
@@ -15,10 +15,10 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #e67a27; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
-  --hover-color: #b35d1e; /* hover accent color (hex, rgb or hsl) [default: #b35d1e] */
-  --success-color: #43b581; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --main-color: #947873; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
+  --hover-color: #342625; /* hover accent color (hex, rgb or hsl) [default: #b35d1e] */
+  --success-color: #c2b7b1; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #c2a18d; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
@@ -28,33 +28,33 @@
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
   
   /* APP BACKGROUND */
-  --background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://clearvision.github.io/images/amber.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/amber.jpg)]*/
+  --background-shading-percent: 34%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
+  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg'); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/amber.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
-  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)) blur(3px) brightness(84%); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
   
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-popout-position: var(--background-position); /* user popout position [default: var(--background-position)] */
-  --user-popout-size: var(--background-size); /* user popout size (px) [default: var(--background-size)] */
+  --user-popout-image: url('https://i.ibb.co/k5ztp3y/Euphonium-01-7.jpg'); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-popout-position: center; /* user popout position [default: var(--background-position)] */
+  --user-popout-size: cover; /* user popout size (px) [default: var(--background-size)] */
   --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
-  --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  --user-popout-filter: brightness(80%) blur(3px); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-modal-position: var(--background-position); /* user modal position [default: var(--background-position)] */
-  --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
+  --user-modal-image: var(--user-popout-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-modal-position: center; /* user modal position [default: var(--background-position)] */
+  --user-modal-size: cover; /* user modal size (px) [default: var(--background-size)] */
   --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
-  --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  --user-modal-filter: brightness(88%) blur(3px); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   
   /* HOME ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://s4.anilist.co/file/anilistcdn/user/avatar/large/b25000-EnBuzeafIflx.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
   
   /* FONTS */
-  --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --main-font: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   
   /* CHANNEL COLORS */
@@ -116,3 +116,4 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
