@@ -32,6 +32,7 @@
   --background-image: url('https://files.catbox.moe/rdkzgl.jpg'), url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg'); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/amber.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
+  --background-repeat: no-repeat; 
   --background-attachment: fixed; /* app background attachment [default: fixed] */
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)) blur(3px) brightness(84%); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
   
@@ -116,4 +117,5 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
 
