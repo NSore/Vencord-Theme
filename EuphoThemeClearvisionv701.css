@@ -29,7 +29,7 @@
   
   /* APP BACKGROUND */
   --background-shading-percent: 34%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url('https://files.catbox.moe/rdkzgl.jpg'); /* app background image (link must be HTTPS) [fallback: url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg')]*/
+  --background-image: url(https://files.catbox.moe/rdkzgl.jpg); /* app background image (link must be HTTPS) [fallback: url('https://i.ibb.co/bvk8Fz0/hibike-eupho.jpg')]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-repeat: no-repeat; 
@@ -117,6 +117,7 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
 
 
 
